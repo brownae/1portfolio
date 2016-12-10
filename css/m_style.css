@@ -1,0 +1,293 @@
+@media all and (max-width: 790px) {
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:700);
+
+/* ============================================================
+  RESET - http://meyerweb.com/eric/tools/css/reset/
+============================================================ */
+/* This removed the top gap onmy page and removed the side margins that are there by default */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* ============================================================
+  Site Styles
+============================================================ */
+body {
+	width: 100%
+	}
+
+h1 {font-family: 'Volkhov', serif; font-size: 3em; font-weight: 700;}
+h2 {font-family: 'Volkhov', serif; font-size: 1.87em; font-weight: 700;}
+h3 {font-family: 'Volkhov', serif; font-size: 1.1em; font-weight: 700; padding-bottom: .60em;}
+p {font-family: 'Roboto Mono', sans-serif; font-size: 1em; font-weight: 400;}
+
+h1,h2,h3,p {color:#fff;}
+
+a {color:#fff;}
+
+.mp3-player {
+	margin: 10px 0;
+}
+
+section.module.content {
+  padding: 40px 10px 15px;
+  background-image: url("../images/wood-texture-dark1.jpg");
+}
+
+
+section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 10vw;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================================================
+     m-home-page styles - Start
+============================================================ */
+
+
+#home-page .module.parallax.parallax-1 .container img {
+    display: block;
+    padding: 20% 0 16% 21%;
+    width: 60vw;
+}
+
+/* ***** m-home-page pictures - Start ***** */
+#home-page section.module.parallax-1 .container {
+    background: url("../images/tele_on_wood366x266.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 70vw;
+}
+
+#home-page section.module.parallax-2 {
+    background: url("../images/nizlopi.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 50vw;
+}
+
+#home-page section.module.parallax-3 {
+  background: url("../images/man-playing-guitar-door.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  line-height: 50vw;
+}
+
+#home-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  line-height: 50vw;
+}
+/* ***** m-home-page pictures - End ***** */
+/* ============================================================
+     m-home-page styles - End
+============================================================ */
+
+/* ============================================================
+     m-about-page styles - Start
+============================================================ */
+
+
+#about-page section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  line-height:75vw;
+}
+
+/* ***** m-about-page pictures - Start ***** */
+#about-page section.module.parallax-1 .container {
+    background: url("../images/brian-julia.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 50vw;
+}
+
+#about-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  line-height: 50vw;
+}
+/* ***** m-about-page pictures - End ***** */
+/* ============================================================
+     m-about-page styles - End
+============================================================ */
+
+
+/* ============================================================
+  m-Listen page Styles - Start
+============================================================ */
+
+#listen-page .projects {
+    padding-top: 15px;
+    text-align: center;
+    }
+
+/*List styles*/
+#listen-page .container .project-list tbody tr td {
+	font-size: 1.5em;
+    color: #fff;
+    padding-right: 100px;
+    padding-top: 5px;
+    display: inline-block;
+	}
+
+/* ***** listen-page pictures - Start ***** */
+
+#listen-page section.module.parallax-1 {
+    background: url("../images/Nigel-Jones-Ukulele.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 50vw;
+}
+
+#listen-page section.module.parallax-2 {
+    background: url("../images/nizlopi.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 50vw;
+}
+
+#listen-page section.module.parallax-3 {
+  background: url("../images/man-playing-guitar-door.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  line-height: 50vw;
+}
+
+#listen-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  line-height: 50vw;
+}
+/* ***** listen-page pictures - end ***** */
+/* ============================================================
+    m-Listen-page Styles - End
+============================================================ */
+
+/* ============================================================
+     m-recording-page styles - Start
+============================================================ */
+
+
+#recording-page section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ***** m-recording-page pictures - Start ***** */
+#recording-page section.module.parallax-1 .container {
+    background: url("../images/headphones.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 50vw;
+}
+
+#recording-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  line-height: 50vw;
+}
+/* ***** m-recording-page pictures - End ***** */
+/* ============================================================
+     m-recording-page styles - End
+============================================================ */
+
+/* ============================================================
+     m-contact-page styles - Start
+============================================================ */
+
+
+#contact-page section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  line-height: 75vw;
+}
+
+/* ***** m-contact-page pictures - Start ***** */
+#contact-page section.module.parallax-1 .container {
+    background: url("../images/Vintage-Microphone.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+	line-height: 50vw;
+}
+
+#contact-form {
+	color: #fff;
+	font-family:'Roboto Mono', sans-serif; font-size: 1em; font-weight: 400;
+	}
+
+#contact-form label {
+	padding: 10px 0;
+	}
+
+
+/* ***** m-contact-page pictures - End ***** */
+/* ============================================================
+     m-contact-page styles - End
+============================================================ */
+
+/*This is for the "request a session button */
+section.module.parallax-4 .container a h2 {
+	background-color: rgba(250, 250, 250, 0.6);
+    color: #000;
+    font-family: Montserrat,sans-serif;
+    font-size: 4vw;
+    font-weight: 500;
+    padding: 10px;
+    display: inline;
+    margin-left: 25%;
+	text-decoration: none;
+}
+
+footer {
+    background-color: rgba(1, 1, 1, 0.6);
+    min-height: 15px;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+}
