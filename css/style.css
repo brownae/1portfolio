@@ -140,16 +140,15 @@ div.dev-icons img {
 #home-page .module.parallax.parallax-1 img {
   margin-top: 11%;
   width: 95%;
-
 }
 /*set up - Makes mock parallax happen*/
 #home-page section.module.parallax {
-  max-height: 600px;
+  height: 63vw;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 63vw;
+  max-height: 600px;
 }
 
 .intro-graphics-wrapper{

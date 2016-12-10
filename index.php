@@ -30,6 +30,7 @@
 </section>
 <section class="content">
     <div class="seo"><p>As a Seattle based front-end web developer and designer, I enjoy building rich UX/UI that are beautiful, easy to understand and use. I work well with others and I am passionate about clear communication, solid solutions, understanding user needs, and designing and building a platform that intuitively bridges that gap.</p></div>
+    <a name="portfolio"><a>
 </section>
 
 <section class="content">
@@ -86,7 +87,7 @@
 
 <section class="module parallax parallax-4">
   <div class="container">
-    <a href="contact.php"><h2>Request a Session</h2></a>
+    <a href="contact.php"><h2>Contact</h2></a>
   </div>
 </section>
 
