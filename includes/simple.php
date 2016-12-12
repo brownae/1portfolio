@@ -75,7 +75,7 @@ if ($response != null && $response->success)
 		</label>
 	</div>
 	<div><?=$feedback?></div>
-    <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+    <div id="rc-imageselect" class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
 	<div>
 		<input type="submit" value="submit" />
 	</div>

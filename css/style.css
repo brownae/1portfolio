@@ -102,6 +102,8 @@ section.content {
 div.seo {
   padding: 36px;
   background-color: #666665;
+  max-width: 800px;
+  margin: auto;
 }
 
 .seo p {
@@ -318,37 +320,64 @@ div.dev-icons img {
 ============================================================ */
 
 /* ============================================================
-  contact page styles - Start
+  contact section styles - Start
 ============================================================ */
 
-#contact-page section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 600px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+#contact-form {
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  width: 33%;
+  margin: auto;
+  text-align: left;
+  background-color: #bababa;
+  padding: 5%;
+  border-radius: 20px;
+	}
+
+form div label input{
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border-style: none;
 }
 
-
-/*Images*/
-#contact-page section.module.parallax-1 {
-    background: url("../image/Vintage-Microphone.jpg") no-repeat;
-    background-size: cover;
+form div label textarea{
     width: 100%;
-	line-height: 50vw;
+    height: 70px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+form div input{
+    width: 25%;
+    height: 30px;
+    background-color: #FFB71C;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 500px) {
+
+#rc-imageselect, .g-recaptcha {
+  transform:scale(0.77);
+  -webkit-transform:scale(0.77);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
 }
 
 #contact-form {
-	color: #fff;
-	font-family:'Roboto Mono', sans-serif; font-size: 1em; font-weight: 400;
-    width: 33%;
-    margin: auto;
-    text-align: left;
-	}
+  width: 80%;
+}
 
-
+}
 
 /* ============================================================
   contact page styles - End

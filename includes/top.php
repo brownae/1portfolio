@@ -30,7 +30,7 @@
    <li><a href="/1portfolio/index.php#portfolio"><span>Portfolio</span></a></li>
    <li><a href=""><span>Articles</span></a></li>
    <li><a href=""><span>Bio</span></a></li>
-   <li><a href="contact.php"><span>Contact</span></a></li>
+   <li><a href="/1portfolio/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">
     <a href="https://github.com/brownae"><span><img src="images/icons/github_badge.svg" alt="Github"></span></a>

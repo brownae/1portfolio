@@ -30,7 +30,7 @@
 </section>
 <section class="content">
     <div class="seo"><p>As a Seattle based front-end web developer and designer, I enjoy building rich UX/UI that are beautiful, easy to understand and use. I work well with others and I am passionate about clear communication, solid solutions, understanding user needs, and designing and building a platform that intuitively bridges that gap.</p></div>
-    <a name="portfolio"><a>
+    <a name="portfolio"><a><!-- Put here to make the location more accurate -->
 </section>
 
 <section class="content">
@@ -82,12 +82,27 @@
           <img src="images/icons/atom.svg" alt="Atom logo" title="Atom">
       </div>
 
-
+      <a name="contact"><a> <!-- Put here to make the location more accurate -->
 </section>
 
-<section class="module parallax parallax-4">
+<section class="module content">
   <div class="container">
-    <a href="contact.php"><h2>Contact</h2></a>
+    <h2>Contact</h2>
+    <div id="contact-form">
+      <?php
+        /*
+         * Below are 2 different forms to be re-used
+         *
+         * Only use one at a time, comment out the other 1!
+         *
+         */
+        include "includes/simple.php"; #demonstrates a simple contact form
+        //include "includes/multiple.php";#demonstrates multiple form elements
+
+
+	?>
+	 <p class="clear-recaptcha"></p>
+        </div>
   </div>
 </section>
 
