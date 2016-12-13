@@ -1,4 +1,4 @@
-@media all and (max-width: 790px) {
+@media all and (max-width: 600px) {
 
 
 
@@ -14,9 +14,10 @@
   background-image: url("../images/Artistwall_Product_760px.jpg");
 }
 
-#home-page section.module.parallax-4 {
-  background-image: url("../images/Aaron-park1_760px.jpg");
+#home-page section.module.parallax {
+  background-attachment: inherit;
 }
+
 
 /* ***** m-home-page pictures - End ***** */
 /* ============================================================

@@ -29,13 +29,13 @@
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
    <li><a href="http://www.blog.brownae.com"><span>Blog</span></a></li>
-   <li><a href=""><span>Bio</span></a></li>
+   <li><a href="http://www.scc.brownae.com/seattlecentral/web205/a-brown-web-resume.pdf"><span>Resume</span></a></li>
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">
-    <a href="https://github.com/brownae"><span><img src="images/icons/github_badge.svg" alt="Github"></span></a>
-    <a href="https://www.linkedin.com/in/aaron-brown-34b15b46"><span><img src="images/icons/LinkedIn.svg" alt="LinkedIn"></span></a>
-    <a href="https://twitter.com/ABinDXB"><span><img src="images/icons/twitter.svg" alt="Twitter"></span></a>
+    <a href="https://github.com/brownae" target="_blank"><span><img src="images/icons/github_badge.svg" alt="Github"></span></a>
+    <a href="https://www.linkedin.com/in/aaron-brown-34b15b46" target="_blank"><span><img src="images/icons/LinkedIn.svg" alt="LinkedIn"></span></a>
+    <a href="https://twitter.com/ABinDXB" target="_blank"><span><img src="images/icons/twitter.svg" alt="Twitter"></span></a>
     </li>
 </ul>
 </div>

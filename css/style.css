@@ -39,7 +39,7 @@ time, mark, audio, video {
 h2 {font-family: 'lemonMilk', helvetica, sans-serif; font-size: 1.87em;     margin-bottom: .5em;}
 h3 {font-family: 'Sorts Mill Goudy', serif; font-size: 1.56em; font-weight: 700; padding-bottom: .5em; font-style: italic;}
 h3 span{ color: #B25E09;}
-h4 {font-family: 'Roboto', sans-serif; font-size: 1.56em;}
+h4 {font-family: 'Roboto', sans-serif; font-size: 1.56em; color: #000;}
 p {font-family: 'Sorts Mill Goudy', serif; font-size: 1em; font-weight: 400;}
 
 .center {text-align: center;}
