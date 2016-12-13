@@ -11,7 +11,7 @@
   <div class="container">
     <h3>Hello, my name is</h3>
     <h2>Aaron E. Brown</h2>
-    <p class="center">(Also know as "Brownie")</p>
+    <p class="center">(Also known as "Brownie")</p>
   </div>
   <div class="intro-graphics-wrapper">
       <div class="intro-graphic">

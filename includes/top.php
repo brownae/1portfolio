@@ -28,7 +28,7 @@
 <ul>
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
-   <li><a href=""><span>Articles</span></a></li>
+   <li><a href="http://www.blog.brownae.com"><span>Blog</span></a></li>
    <li><a href=""><span>Bio</span></a></li>
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
