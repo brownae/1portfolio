@@ -35,7 +35,7 @@
    <li class="last">
     <a href="https://github.com/brownae"><span><img src="images/icons/github_badge.svg" alt="Github"></span></a>
     <a href="https://www.linkedin.com/in/aaron-brown-34b15b46"><span><img src="images/icons/LinkedIn.svg" alt="LinkedIn"></span></a>
-    <a href="https://linkedin.com/in/brian-hart-b93662108"><span><img src="images/icons/twitter.svg" alt="Twitter"></span></a>
+    <a href="https://twitter.com/ABinDXB"><span><img src="images/icons/twitter.svg" alt="Twitter"></span></a>
     </li>
 </ul>
 </div>
