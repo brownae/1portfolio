@@ -73,6 +73,7 @@
           <img src="images/icons/jquery_logo.svg" alt="jQuery logo" title="jQuery">
           <img src="images/icons/nodejs_small.svg" alt="Node.js logo" title="Node.js">
           <img src="images/icons/angular_simple.svg" alt="AngularJS logo" title="AngularJS">
+          <img src="images/icons/php.svg" alt="PHP logo" title="PHP">
           <img src="images/icons/mysql.svg" alt="mySQL logo" title="mySQL">
           <img src="images/icons/github_badge.svg" alt="GitHub logo" title="GitHub">
           <img src="images/icons/gulp.svg" alt="Gulp logo" title="Gulp">
