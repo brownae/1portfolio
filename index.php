@@ -37,27 +37,27 @@
     <h2 class="center">Portfolio</h2>
     <div class="wrapper">
       <div class="demo-graphics">
-        <img src="images/neat-shaving-co-Demo.png" alt="Neat Shaving Co. website" title="Neat Shaving Co. website">
-        <h4>Neat Shaving Co.</h4>
+        <a href='http://www.scc.brownae.com/seattlecentral/web202/protosite/index.php' target="_blank" ><img src="images/neat-shaving-co-Demo.png" alt="Neat Shaving Co. website" title="Neat Shaving Co. website">
+        <h4>Neat Shaving Co.</h4></a>
         <p>Brief case study. Designed Logo, UX/UI, Checkout procedure.</P>
       </div>
 
       <div class="demo-graphics">
-        <img src="images/Laissez-faire-studios-Demo.png" alt="Laiessez Faire Studios" title="Laiessez Faire Studios">
-        <h4>Laiessez Faire Studios</h4>
+        <a href='http://www.scc.brownae.com/seattlecentral/web120/fp/index.php' target="_blank" ><img src="images/Laissez-faire-studios-Demo.png" alt="Laiessez Faire Studios" title="Laiessez Faire Studios">
+        <h4>Laiessez Faire Studios</h4></a>
         <p>Brief case study. Designed Logo, UX/UI, Checkout procedure.</P>
       </div>
 
       <div class="demo-graphics">
-        <img src="images/Lift-Every-Voice-Foundation-Demo.png" alt="The Lift Every Voice Foundation" title="The Lift Every Voice Foundation">
-        <h4>Lift Every Voice Foundation</h4>
+        <a href='http://www.thelifteveryvoicefoundation.org/' target="_blank" ><img src="images/Lift-Every-Voice-Foundation-Demo.png" alt="The Lift Every Voice Foundation" title="The Lift Every Voice Foundation">
+        <h4>Lift Every Voice Foundation</h4></a>
         <p>Brief case study. Designed Logo, UX/UI, Checkout procedure.</P>
       </div>
 
 
       <div class="demo-graphics">
-        <img src="images/Scoot-aboot-Demo.png" alt="Scoot Aboot" title="Banff Vespa tour">
-        <h4>Scoot Aboot</h4>
+        <a href='http://scootaboot.com/' target="_blank" ><img src="images/Scoot-aboot-Demo.png" alt="Scoot Aboot" title="Banff Vespa tour">
+        <h4>Scoot Aboot</h4></a>
         <p>Brief case study. Designed Logo, UX/UI, Checkout procedure.</P>
       </div>
     </div>

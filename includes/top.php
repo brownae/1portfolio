@@ -10,6 +10,7 @@
     <meta content="description" name="Aaron Brown is a seattle based front end web developer">
     <!-- css -->
   <!--  <link rel="stylesheet" href="css/base.css"> -->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/m_style.css">
@@ -29,7 +30,7 @@
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
    <li><a href="http://www.blog.brownae.com"><span>Blog</span></a></li>
-   <li><a href="http://www.scc.brownae.com/seattlecentral/web205/a-brown-web-resume.pdf"><span>Resume</span></a></li>
+   <li><a href="http://www.scc.brownae.com/seattlecentral/web205/a-brown-web-resume.pdf" target="_blank" ><span>Resume</span></a></li>
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">
