@@ -48,6 +48,17 @@
   width: 30px;
 }
 
+#cssmenu svg{
+  width: 30px;
+}
+
+#cssmenu a svg:hover path#LinkedIn,
+#cssmenu a svg:hover path#Github,
+#cssmenu a svg:hover path#Twitter {
+  fill: #fff;
+}
+
+
 #cssmenu > ul > li {
   float: left;
 }
@@ -210,7 +221,6 @@
   top: 17px;
   height: 0;
 }
-
 
 /* Starting reponsive menu  */
 @media all and (max-width: 790px) {
