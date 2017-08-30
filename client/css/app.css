@@ -1,0 +1,1038 @@
+/* ============================================================
+  RESET - http://meyerweb.com/eric/tools/css/reset/
+============================================================ */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,500i|Sorts+Mill+Goudy:400,400i");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ============================================================
+  BOX SIZING & CLEARFIX
+============================================================ */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* ============================================================
+  HTML & BODY
+============================================================ */
+body {
+  background-color: #b4b4b4;
+  color: #787878;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 1.5; }
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+main {
+  display: block;
+  background-color: #fff; }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+/* ============================================================
+  HEADER & SITE TITLE
+============================================================ */
+/* header */
+header .branding {
+  padding: 20px 0; }
+
+header .logo {
+  margin-bottom: 20px;
+  text-align: center; }
+
+header .logo img {
+  display: inline-block;
+  vertical-align: middle; }
+
+header .social {
+  text-align: center; }
+
+header .social a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0);
+  font-size: 0;
+  text-indent: -9999px;
+  background-size: 30px 30px;
+  background-image: url("../images/core/social-light.png");
+  background-image: url("../images/core/social-light.svg"), none;
+  background-size: 180px 30px; }
+
+header .social a.fb {
+  background-position: 0 0; }
+
+header .social a.twitter {
+  background-position: -30px 0; }
+
+header .social a.googleplus {
+  background-position: -60px 0; }
+
+header .social a.rss {
+  background-position: -90px 0; }
+
+header .social a.email {
+  background-position: -120px 0; }
+
+header .social a.search {
+  background-position: -150px 0; }
+
+header .social a:hover {
+  opacity: 0.4; }
+
+@media all and (min-width: 600px) {
+  header .branding {
+    padding-left: 60px; }
+
+  header .logo {
+    margin-bottom: 0;
+    margin-left: -60px;
+    float: left;
+    width: 60px;
+    height: 60px; }
+
+  header .logo img {
+    display: block;
+    margin: 0; }
+
+  header .social {
+    padding: 15px 0;
+    float: right;
+    width: 100%;
+    text-align: right; } }
+/* site title */
+.site-title {
+  padding: 5px 0;
+  background-color: #818181;
+  text-align: center; }
+
+.site-title h1 {
+  color: #fff; }
+
+/* ============================================================
+  FOOTER
+============================================================ */
+footer {
+  padding: 20px 0; }
+
+footer .asides {
+  margin-bottom: 20px; }
+
+footer aside {
+  margin-bottom: 10px; }
+
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+footer nav li {
+  display: inline-block; }
+
+footer nav a {
+  display: block;
+  margin: 0 5px;
+  color: #fff; }
+
+footer .logo {
+  text-align: center; }
+
+footer .logo img {
+  display: inline-block;
+  vertical-align: middle; }
+
+footer .copyright {
+  text-align: center; }
+
+footer .copyright small {
+  color: #fff;
+  font-size: 12px; }
+
+footer .copyright a {
+  color: #818181; }
+
+@media all and (min-width: 600px) {
+  footer aside {
+    margin-bottom: 0;
+    float: left;
+    width: 33.3333%; }
+
+  footer nav ul {
+    text-align: left; }
+
+  footer nav li {
+    display: block; }
+
+  footer nav a {
+    display: inline-block;
+    margin: 0; }
+
+  footer .logo {
+    text-align: right; } }
+/* ============================================================
+  TEXT LEVEL SEMANTICS
+============================================================ */
+a {
+  text-decoration: none;
+  color: #b4b4b4; }
+
+a:hover {
+  color: #818181; }
+
+@media all and (max-width: 600px) {
+  /* ============================================================
+    Site Styles
+  ============================================================ */
+  /* ============================================================
+       m-home-page styles - Start
+  ============================================================ */
+  /*Images*/
+  #home-page section.module.parallax-1 {
+    background-image: url("../images/Artistwall_Product_760px.jpg"); }
+
+  #home-page section.module.parallax {
+    background-attachment: inherit; }
+
+  /* ***** m-home-page pictures - End ***** */
+  /* ============================================================
+       m-home-page styles - End
+  ============================================================ */
+  /* ============================================================
+       m-about-page styles - Start
+  ============================================================ */
+  /* ***** m-about-page pictures - End ***** */
+  /* ============================================================
+       m-about-page styles - End
+  ============================================================ */
+  /* ***** listen-page pictures - end ***** */
+  /* ============================================================
+      m-Listen-page Styles - End
+  ============================================================ */
+  /* ============================================================
+       m-recording-page styles - Start
+  ============================================================ */
+  /* ***** m-contact-page pictures - End ***** */
+  /* ============================================================
+       m-contact-page styles - End
+  ============================================================ */
+  /*This is for the "request a session button */
+  section.module.parallax-4 .container a h2 {
+    background-color: rgba(250, 250, 250, 0.6);
+    color: #000;
+    font-family: Montserrat,sans-serif;
+    font-size: 4vw;
+    font-weight: 500;
+    padding: 10px;
+    display: inline;
+    margin-left: 25%;
+    text-decoration: none; } }
+@media all and (max-width: 500px) {
+  #home-page .module.parallax.parallax-1 img {
+    margin-top: 16%; } }
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+#cssmenu #menu-button {
+  display: none; }
+
+#cssmenu {
+  font-family: Montserrat, sans-serif;
+  background: rgba(135, 132, 129, 0.85);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  right: 0;
+  left: 0; }
+
+#cssmenu img {
+  width: 30px; }
+
+#cssmenu > ul > li {
+  float: left; }
+
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center; }
+
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none; }
+
+#cssmenu.align-center ul ul {
+  text-align: left; }
+
+#cssmenu.align-right > ul > li {
+  float: right; }
+
+#cssmenu > ul > li > a {
+  color: #000;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle; }
+
+#cssmenu > ul > li.last > a {
+  vertical-align: middle;
+  padding: 0;
+  padding-left: 15px; }
+
+#cssmenu > ul > li:hover > a {
+  color: #ffffff; }
+
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 30px; }
+
+#cssmenu > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: ''; }
+
+#cssmenu > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0; }
+
+/*This makes menu pop UP (position:absolute & bottom 100%) 1 0f 2 */
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+  bottom: 100%; }
+
+#cssmenu.align-right ul ul {
+  text-align: right; }
+
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+
+#cssmenu li:hover > ul {
+  left: auto; }
+
+#cssmenu.align-right li:hover > ul {
+  left: auto;
+  right: 0; }
+
+#cssmenu li:hover > ul > li {
+  height: 35px; }
+
+/*This makes menu pop UP (bottom:0; ) 2 0f 2 */
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  bottom: 0; }
+
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%; }
+
+#cssmenu ul ul li a {
+  border-bottom: 1px solid #f18d21;
+  padding: 11px 15px;
+  width: 170px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: 400;
+  background: #e2515d; }
+
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last-item > a {
+  border-bottom: 0; }
+
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #f0c808; }
+
+#cssmenu ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: ''; }
+
+#cssmenu.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px; }
+
+#cssmenu ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+
+#cssmenu.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px; }
+
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0; }
+
+/* Starting reponsive menu  */
+@media all and (max-width: 790px) {
+  #cssmenu {
+    width: 100%; }
+
+  #cssmenu ul {
+    width: 100%;
+    display: none; }
+
+  #cssmenu.align-center > ul {
+    text-align: center; }
+
+  #cssmenu ul li {
+    width: 100%;
+    border-top: 1px solid rgba(120, 120, 120, 0.2); }
+
+  #cssmenu ul ul li,
+  #cssmenu li:hover > ul > li {
+    height: auto; }
+
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%;
+    border-bottom: 0; }
+
+  #cssmenu > ul > li {
+    float: none; }
+
+  #cssmenu ul ul li a {
+    padding-left: 25px; }
+
+  #cssmenu ul ul ul li a {
+    padding-left: 35px; }
+
+  #cssmenu ul ul li a {
+    color: #dddddd;
+    background: none; }
+
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li.active > a {
+    color: #ffffff; }
+
+  #cssmenu ul ul,
+  #cssmenu ul ul ul,
+  #cssmenu.align-right ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left; }
+
+  #cssmenu > ul > li.has-sub > a:after,
+  #cssmenu > ul > li.has-sub > a:before,
+  #cssmenu ul ul > li.has-sub > a:after,
+  #cssmenu ul ul > li.has-sub > a:before {
+    display: none; }
+
+  #cssmenu #menu-button {
+    display: block;
+    padding: 17px;
+    color: #dddddd;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700; }
+
+  #cssmenu #menu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    display: block;
+    height: 4px;
+    width: 20px;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    content: ''; }
+
+  #cssmenu #menu-button:before {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: #dddddd;
+    content: ''; }
+
+  #cssmenu #menu-button.menu-opened:after {
+    top: 23px;
+    border: 0;
+    height: 2px;
+    width: 15px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+  #cssmenu #menu-button.menu-opened:before {
+    top: 23px;
+    background: #ffffff;
+    width: 15px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.2);
+    height: 46px;
+    width: 46px;
+    cursor: pointer; }
+
+  #cssmenu .submenu-button.submenu-opened {
+    background: #e2515d; }
+
+  #cssmenu ul ul .submenu-button {
+    height: 34px;
+    width: 34px; }
+
+  #cssmenu .submenu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 19px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #dddddd;
+    content: ''; }
+
+  #cssmenu ul ul .submenu-button:after {
+    top: 15px;
+    right: 13px; }
+
+  #cssmenu .submenu-button.submenu-opened:after {
+    background: #ffffff; }
+
+  #cssmenu .submenu-button:before {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #dddddd;
+    content: ''; }
+
+  #cssmenu ul ul .submenu-button:before {
+    top: 12px;
+    right: 16px; }
+
+  #cssmenu .submenu-button.submenu-opened:before {
+    display: none; }
+
+  /* this makes the social media icons line up side by side in mobile view */
+  #cssmenu > ul > li.last > a {
+    display: inline; } }
+/* first rule below makes the 3rd layer pop out menu hide in mobile view */
+/* socond rule below makes the "+" symbol disappear in mobile view for the 3rd level pop up menu.*/
+@media all and (max-width: 1000px) {
+  #cssmenu ul ul ul li a {
+    padding-left: 35px;
+    display: none; }
+
+  #cssmenu ul ul .submenu-button::before,
+  #cssmenu ul ul .submenu-button::after {
+    background: none; } }
+@font-face {
+  font-family: 'lemonMilk';
+  src: url("../fonts/LemonMilk.otf") format("OpenType"); }
+/* ============================================================
+  RESET - http://meyerweb.com/eric/tools/css/reset/
+============================================================ */
+/* This removed the top gap onmy page and removed the side margins that are there by default */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* ============================================================
+  Site Styles
+============================================================ */
+h2 {
+  font-family: 'lemonMilk', helvetica, sans-serif;
+  font-size: 1.87em;
+  margin-bottom: .5em; }
+
+h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1.56em;
+  font-weight: 700;
+  padding-bottom: .5em;
+  font-style: italic; }
+
+h3 span {
+  color: #B25E09; }
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.56em;
+  color: #000; }
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1em;
+  font-weight: 400; }
+
+.center {
+  text-align: center; }
+
+h1, h2, h3, p {
+  color: #000; }
+
+a {
+  color: #fff; }
+
+.mp3-player {
+  margin: 10px 0; }
+
+img {
+  width: 100%; }
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  height: inherit;
+  text-align: center; }
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+/*section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "lemonMilk", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}*/
+section.content {
+  padding: 20px 0;
+  text-align: center; }
+
+div.seo {
+  padding: 36px;
+  background-color: #666665;
+  max-width: 800px;
+  margin: auto; }
+
+.seo p {
+  color: #fff;
+  font-size: 1.14em; }
+
+div.wrapper {
+  margin: 30px auto; }
+
+div.demo-graphics {
+  width: 39%;
+  margin: 15px;
+  text-align: center;
+  min-width: 300px;
+  display: inline-block; }
+
+div.demo-graphics p {
+  font-style: italic; }
+
+div.dev-icons {
+  width: 75%; }
+
+div.dev-icons img {
+  width: 80px;
+  margin: 0 10px; }
+
+/* ============================================================
+  Home page Parallax setup and pics - Start
+============================================================ */
+#home-page .module.parallax.parallax-1 img {
+  margin-top: 11%;
+  width: 95%; }
+
+/*set up - Makes mock parallax happen*/
+#home-page section.module.parallax {
+  height: 63vw;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-height: 600px; }
+
+.intro-graphics-wrapper {
+  text-align: center;
+  margin-top: 15px; }
+
+.intro-graphic {
+  width: 28%;
+  min-width: 200px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block; }
+
+.intro-graphic img {
+  height: 15vw;
+  margin-bottom: 11px; }
+
+/*Images*/
+#home-page section.module.parallax-1 {
+  background-image: url("../images/Artistwall_Product.jpg"); }
+
+#home-page section.module.parallax-4 {
+  background-image: url("../images/Aaron-park1.jpg"); }
+
+/*This is for the "request a session button */
+#home-page section.module.parallax-4 .container a h2 {
+  background-color: rgba(250, 250, 250, 0.6);
+  color: #000;
+  display: block;
+  font-family: Montserrat,sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 20% 20% 0;
+  padding: 10px;
+  position: absolute; }
+
+/* ============================================================
+  Home page Parallax pics and setup - End
+============================================================ */
+/* ============================================================
+  about page styles - Start
+============================================================ */
+#about-page section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  line-height: 75vw; }
+
+/*Images*/
+#about-page section.module.parallax-1 {
+  background: url("../images/brian-julia.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 70vw; }
+
+#about-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 50vw; }
+
+/* ============================================================
+  about page styles - End
+============================================================ */
+/* ============================================================
+  Listen page Styles - Start
+============================================================ */
+#listen-page .projects {
+  padding-top: 50px;
+  text-align: center; }
+
+/*List styles*/
+#listen-page .container .project-list tbody tr td {
+  font-size: 1.5em;
+  color: #fff;
+  padding-right: 100px;
+  padding-top: 5px; }
+
+/* ***** listen-page pictures - Start ***** */
+#listen-page section.module.parallax-1 {
+  background: url("../images/Nigel-Jones-Ukulele.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 50vw; }
+
+#listen-page section.module.parallax-2 {
+  background: url("../images/nizlopi.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 50vw; }
+
+#listen-page section.module.parallax-3 {
+  background: url("../images/man-playing-guitar-door.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 50vw; }
+
+#listen-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 50vw; }
+
+/* ***** listen-page pictures - end ***** */
+/* ============================================================
+    Listen-page Styles - End
+============================================================ */
+/* ============================================================
+  recording page styles - Start
+============================================================ */
+#recording-page section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+/*Images*/
+#recording-page section.module.parallax-1 {
+  background: url("../images/headphones.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 70vw; }
+
+#recording-page section.module.parallax-4 {
+  background: url("../images/record_stack.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  line-height: 50vw; }
+
+/* ============================================================
+  recording page styles - End
+============================================================ */
+/* ============================================================
+  contact section styles - Start
+============================================================ */
+#contact-form {
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  width: 33%;
+  margin: auto;
+  text-align: left;
+  background-color: #bababa;
+  padding: 5%;
+  border-radius: 20px; }
+
+form div label input {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border-style: none; }
+
+form div label textarea {
+  width: 100%;
+  height: 70px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 15px; }
+
+form div input {
+  width: 25%;
+  height: 30px;
+  background-color: #FFB71C;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 15px;
+  margin-top: 20px; }
+
+@media all and (max-width: 500px) {
+  #rc-imageselect, .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; }
+
+  #contact-form {
+    width: 80%; } }
+/* ============================================================
+  contact page styles - End
+============================================================ */
+/*This is for the "request a session button */
+section.module.parallax-4 .container a h2 {
+  background-color: rgba(250, 250, 250, 0.6);
+  color: #000;
+  font-family: Montserrat,sans-serif;
+  font-size: 4vw;
+  font-weight: 500;
+  padding: 10px;
+  display: inline;
+  margin-left: 25%;
+  text-decoration: none; }
+
+footer {
+  background-color: rgba(1, 1, 1, 0.6);
+  min-height: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%; }
+
+#disclaimer {
+  background-color: #a9a7a9;
+  padding: 80px 0 0; }
+
+/*# sourceMappingURL=app.css.map */

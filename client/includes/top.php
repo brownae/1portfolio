@@ -11,9 +11,7 @@
     <!-- css -->
   <!--  <link rel="stylesheet" href="css/base.css"> -->
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/m_style.css">
+    <link rel="stylesheet" href="css/app.css">
 
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="js/script.js"></script>
