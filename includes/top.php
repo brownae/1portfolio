@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
  <head>
     <!-- title and meta -->
-    <title>Aaron Brown Portfolio</title>
+    <title>Brown Aaron E Portfolio</title>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">

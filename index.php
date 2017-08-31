@@ -33,7 +33,7 @@
             <p>As a Seattle based front-end web developer and designer, I enjoy building rich UX/UI that are beautiful, easy to understand and use. I work well with others and I am passionate about clear communication, solid solutions, understanding user
             needs, and designing and building a platform that intuitively bridges that gap.</p>
         </div>
-        <a name="portfolio"><a><!-- Put here to make the location more accurate -->
+        <a name="portfolio"></a><!-- Put here to make the location more accurate -->
 </section>
 
 <section class="content">
@@ -102,7 +102,7 @@
 
 <section class="content">
     <h2 class="center">Languages, Skills, Tools</h2>
-    <h3>Current + <span>In Process<span></h3>
+    <h3>Current + <span>In Process</span></h3>
     <div class="dev-icons wrapperIcons">
         <img src="images/icons/html5.svg" alt="HTML5 logo" title="HTML5">
         <img src="images/icons/css3.svg" alt="CSS3 logo" title="CSS3">
@@ -120,7 +120,7 @@
         <img src="images/icons/atom.svg" alt="Atom logo" title="Atom">
     </div>
 
-    <a name="contact"><a> <!-- Put here to make the location more accurate -->
+    <a name="contact"></a> <!-- Put here to make the location more accurate -->
 </section>
 
 <section class="module content">
