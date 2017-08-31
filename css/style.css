@@ -2,7 +2,7 @@
     font-family: 'lemonMilk';
     src: url('../fonts/LemonMilk.otf') format('OpenType');
   }
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i|Sorts+Mill+Goudy:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i|Sorts+Mill+Goudy:400,400i');
 
 
 /* ============================================================
@@ -41,7 +41,7 @@ h3 {font-family: 'Sorts Mill Goudy', serif; font-size: 1.56em; font-weight: 700;
 h3 span{ color: #B25E09;}
 h4 {font-family: 'Roboto', sans-serif; font-size: 1.56em; color: #000;}
 p {font-family: 'Sorts Mill Goudy', serif; font-size: 1em; font-weight: 400;}
-
+i {font-style: italic;}
 .center {text-align: center;}
 
 h1,h2,h3,p {color:#000;}
@@ -120,8 +120,13 @@ div.demo-graphics {
   display: inline-block;
 }
 
-div.demo-graphics p {
-  font-style: italic;
+div.demo-graphics p a {
+  font-family: 'Roboto', sans-serif;
+  color: #e2a828;
+}
+
+div.demo-graphics p a:hover {
+  color: #3f89ff;
 }
 
 div.dev-icons {

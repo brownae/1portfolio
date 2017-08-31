@@ -36,9 +36,22 @@
 <section class="content">
     <h2 class="center">Portfolio</h2>
     <div class="wrapper">
+
+        <div class="demo-graphics">
+          <img src="images/Canon-Bar-Demo.png" alt="Canon cocktail bar website" title="Canon cocktail bar website">
+          <h4>Canon Whiskey &amp; Bitters Emporium</h4>
+          <p>
+              <a href='http://canon.brownae.com/' target="_blank" ><i>Website</i></a> | <a href="#"><i>Summary</i></a>
+          </p>
+          <p>Brief case study. Designed Logo, UX/UI, Checkout procedure.</P>
+        </div>
+
       <div class="demo-graphics">
-        <a href='http://www.scc.brownae.com/seattlecentral/web202/protosite/index.php' target="_blank" ><img src="images/neat-shaving-co-Demo.png" alt="Neat Shaving Co. website" title="Neat Shaving Co. website">
-        <h4>Neat Shaving Co.</h4></a>
+        <img src="images/neat-shaving-co-Demo.png" alt="Neat Shaving Co. website" title="Neat Shaving Co. website">
+        <h4>Neat Shaving Co.</h4>
+        <p>
+            <a href='http://www.scc.brownae.com/seattlecentral/web202/protosite/index.php' target="_blank" ><i>Website</i></a> | <a href="http://www.blog.brownae.com/neat-shaving-co/"><i>Summary</i></a>
+        </p>
         <p>Brief case study. Designed Logo, UX/UI, Checkout procedure.</P>
       </div>
 
