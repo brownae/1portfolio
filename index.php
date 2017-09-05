@@ -3,7 +3,7 @@
 <div id="home-page">
     <section class="module parallax parallax-1">
         <div class="container">
-            <img src="images/BrownAE-logo-grey-white.svg" alt="Laissez Faire Logo" />
+            <img src="images/BrownAE-logo.svg" alt="Laissez Faire Logo" />
         </div>
     </section>
 
@@ -11,7 +11,7 @@
         <div class="container">
             <h3>Hello, my name is</h3>
             <h2>Aaron E. Brown</h2>
-            <p class="center">(I also answer to Brown or "Brownie")</p>
+            <p class="center">(Aka Brown or "Brownie")</p>
         </div>
         <div class="intro-graphics-wrapper">
             <div class="intro-graphic">
@@ -30,8 +30,8 @@
     </section>
     <section class="content">
         <div class="seo">
-            <p>As a Seattle based front-end web developer and designer, I enjoy building rich UX/UI that are beautiful, easy to understand and use. I work well with others and I am passionate about clear communication, solid solutions, understanding user
-            needs, and designing and building a platform that intuitively bridges that gap.</p>
+            <p>As a Seattle based front-end web developer and designer, I enjoy building simple rich UX/UI that are beautiful, easy to learn/understand and use. I work well with others and I am passionate about clear communication, solid solutions, understanding client &amp; user
+            needs, then designing and building a platform that intuitively meets the needs of all.</p>
         </div>
         <a name="portfolio"></a><!-- Put here to make the location more accurate -->
 </section>
