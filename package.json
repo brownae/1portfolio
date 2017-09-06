@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "Website for Aaron brown portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brownae/1portfolio.git"
+  },
+  "author": "Aaron Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brownae/1portfolio/issues"
+  },
+  "homepage": "https://github.com/brownae/1portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.1.0"
+  }
+}
