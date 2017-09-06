@@ -3,7 +3,7 @@
 <div id="home-page">
     <section class="module parallax parallax-1">
         <div class="container">
-            <img src="images/BrownAE-logo.svg" alt="Laissez Faire Logo" />
+            <img src="images/BrownAE-logo.svg" alt="Brownie Web Design Logo"/>
         </div>
     </section>
 
@@ -101,7 +101,7 @@
 </section>
 
 <section class="content">
-    <h2 class="center">Languages, Skills, Tools</h2>
+    <h2 class="center">Languages &amp; Tools</h2>
     <h3>Current + <span>In Process</span></h3>
     <div class="dev-icons wrapperIcons">
         <img src="images/icons/html5.svg" alt="HTML5 logo" title="HTML5">
@@ -112,12 +112,15 @@
         <img src="images/icons/angular_simple.svg" alt="AngularJS logo" title="AngularJS">
         <img src="images/icons/php.svg" alt="PHP logo" title="PHP">
         <img src="images/icons/mysql.svg" alt="mySQL logo" title="mySQL">
+        <img src="images/icons/graphQL.svg" alt="GraphQL logo" title="GraphQL">
         <img src="images/icons/github_badge.svg" alt="GitHub logo" title="GitHub">
+        <img src="images/icons/grunt.svg" alt="Grunt logo" title="Grunt">
         <img src="images/icons/gulp.svg" alt="Gulp logo" title="Gulp">
         <img src="images/icons/sass.svg" alt="Sass logo" title="Sass">
         <img src="images/icons/illustrator.svg" alt="Adobe Illustrator logo" title="Adobe Illustrator">
         <img src="images/icons/photoshop.svg" alt="Adobe Photoshop logo" title="Adobe Photoshop">
-        <img src="images/icons/atom.svg" alt="Atom logo" title="Atom">
+        <img src="images/icons/Sketchapp-logo.svg" alt="Sketch App logo" title="Sketchapp">
+        <img src="images/icons/atom.svg" alt="Atom logo" title="Atom.io">
     </div>
 
     <a name="contact"></a> <!-- Put here to make the location more accurate -->
