@@ -3,13 +3,13 @@
 <div id="home-page">
     <section class="module parallax parallax-1">
         <div class="container">
-            <img src="images/BrownAE-logo.svg" alt="Brownie Web Design Logo"/>
+            <img src="images/ReverseBrownAE-logo-white5.svg" alt="Brownie Web Design Logo"/>
         </div>
     </section>
 
     <section class="content">
         <div class="container">
-            <h3>Hello, my name is</h3>
+            <h3>Brownie Web Design is</h3>
             <h2>Aaron E. Brown</h2>
             <p class="center">(Aka Brown or "Brownie")</p>
         </div>
@@ -77,7 +77,7 @@
             <p>
                 <a href='http://www.thelifteveryvoicefoundation.org/' target="_blank"><i>Website</i></a> | <a href="#"><i>Summary</i></a>
             </p>
-            <p>Custom built wordpress site. Designed UX/UI, coded design with HTML, PHP &amp; CSS. Uploaded to clients url. entire site updatable by client.</P>
+            <p>Custom built wordpress site. Worked as a front-end developer on this project. Lots of PHP &amp; CSS working within the Wordpress framework. Entire site updatable by client.</P>
         </div>
 
         <div class="demo-graphics">

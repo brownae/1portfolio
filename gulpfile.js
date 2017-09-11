@@ -16,12 +16,15 @@ var browserSync = require('browser-sync').create();
 */
 
 //Copy all files with .php extension & put in correct place
-gulp.task('copyPhp', function(){
+gulp.task('moveFiles', function(){
     gulp.src('src/*.php')
         .pipe(gulp.dest('dist'));
 
     gulp.src('src/includes/**/*')
         .pipe(gulp.dest('dist/includes'));
+
+    gulp.src('src/fonts/**')
+        .pipe(gulp.dest('dist/fonts'))
 });
 
 //Optimizes images
@@ -57,12 +60,13 @@ gulp.task('clean', function () {
 
 //runSequnce I had to install to keep scripts from running simultaniously
 gulp.task('default', function(callback) {
-    runSequence('clean',['copyCss','copyPhp', 'imageMin','uglify'],callback);
+    runSequence('clean',['copyCss','moveFiles', 'imageMin','uglify'],callback);
 });
 
 gulp.task('sync', function() {
-    gulp.watch('src/*.php',['copyPhp']);
-    gulp.watch('src/includes/*.php',['copyPhp']);
+    gulp.watch('src/*.php',['moveFiles']);
+    gulp.watch('src/includes/*.php',['moveFiles']);
+    gulp.watch('src/fonts/**',['moveFiles']);
     gulp.watch('src/images/*', ['imageMin']);
     gulp.watch('src/css/*.css', ['copyCss']);
     browserSync.init({
@@ -73,9 +77,10 @@ gulp.task('sync', function() {
 
 //Note Uglify will not happen when watching
 gulp.task('watch', function(){
-    gulp.watch('src/*.php',['copyPhp']);
-    gulp.watch('src/includes/*.php',['copyPhp']);
-    gulp.watch('src/images/*', ['imageMin']);
+    gulp.watch('src/*.php',['moveFiles']);
+    gulp.watch('src/includes/*.php',['moveFiles']);
+    gulp.watch('src/fonts/**',['moveFiles']);
+    gulp.watch('src/images/*/**', ['imageMin']);
     gulp.watch('src/css/*.css', ['copyCss']);
 
 });
