@@ -30,7 +30,7 @@
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
    <li><a href="http://www.blog.browniewd.com"><span>Blog</span></a></li>
-   <li><a href="/images/AaronBrownWebResume9-12-17.pdf" target="_blank" ><span>Resume</span></a></li> 
+   <li><a href="https://indd.adobe.com/view/1bc7547d-3965-4a7b-86ce-277aa888379c" target="_blank" ><span>Resume</span></a></li> 
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">

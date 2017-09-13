@@ -14,7 +14,7 @@
             <p class="center">(Aka Brown or "Brownie")</p>
         </div>
         <div class="intro-graphics-wrapper">
-            <div class="intro-graphic"> 
+            <div class="intro-graphic">
                 <img src="images/noun_955667_cc.svg" alt="Front end developer icon" title="Front End Developer">
                 <h3>Front-End Developer</h3>
             </div>
@@ -65,7 +65,7 @@
             <img src="images/Nafanua-Demo.png" alt="Nafanua book website" title="Nafanua book website">
             <h4>Nafanua - Book by Paul Alan Cox</h4>
             <p>
-                <a href='http://www.nafanua.org/' target="_blank"><i>Website</i></a> | <a href="https://docs.google.com/document/d/144Pc_zMFsLr3YJFNo3U_W26AsId44km8lwG8NwciHkk/edit?usp=sharing"><i>Summary</i></a>
+                <a href='http://www.nafanua.org/' target="_blank"><i>Website</i></a> | <a href="http://www.blog.browniewd.com/nafanua-book-by-paul-alan-cox/"><i>Summary</i></a>
                 <!-- website on MY server... http://www.scc.browniewd.com/seattlecentral/cis197/protosite2/legend.php -->
             </p>
             <p>Website redesign for launch of digital republish of book. UX/UI, brochure site with links to purchase book.</P>
