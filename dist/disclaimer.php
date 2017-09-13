@@ -1,8 +1,8 @@
 <?php include("includes/top.php");?>
 
 <div id="disclaimer">
-<h1><a href="index.php">Brownae.com/ Aaron Brown</a></h1>
-    <h2 class="main">Disclaimer</h2>
+<h1><a href="index.php">Browniewd.com/ Aaron Brown</a></h1>
+    <h2 class="main">Disclaimer &amp; Credit</h2>
 
 <p> Disclaimer / Privacy Notice</p>
 
@@ -14,6 +14,9 @@
 
 <p>Any person or entity that relies on any information obtained from this system does so at their own risk.</p>
 
+<h2>Credit</h2>
+<p>design icon - Website Design by Creative Stall from the Noun Project</p>
+<p>web developer icon by Adrien Coquet from the Noun Project</p>
 </div>
 
 <?php include ("includes/bottom.php");?>

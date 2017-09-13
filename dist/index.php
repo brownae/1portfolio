@@ -14,12 +14,12 @@
             <p class="center">(Aka Brown or "Brownie")</p>
         </div>
         <div class="intro-graphics-wrapper">
-            <div class="intro-graphic">
-                <img src="images/developer.svg" alt="Front-end developer icon" title="Front End Developer">
+            <div class="intro-graphic"> 
+                <img src="images/noun_955667_cc.svg" alt="Front end developer icon" title="Front End Developer">
                 <h3>Front-End Developer</h3>
             </div>
             <div class="intro-graphic">
-                <img src="images/retroatom.svg" alt="Designer" title="Designer">
+                <img src="images/noun_986385_cc.svg" alt="Designer" title="Designer">
                 <h3>Designer</h3>
             </div>
             <div class="intro-graphic">
@@ -44,9 +44,9 @@
             <img src="images/Canon-Bar-Demo2.png" alt="Canon cocktail bar website" title="Canon cocktail bar website">
             <h4>Canon Whiskey &amp; Bitters Emporium</h4>
             <p>
-                <a href='http://canon.brownae.com/' target="_blank" ><i>Website</i></a> |
+                <a href='http://canon.browniewd.com/' target="_blank" ><i>Website</i></a> |
                 <a href="#"><i>Summary</i></a>
-                <!-- website on MY server... http://canon.brownae.com/ -->
+                <!-- website on MY server... http://canon.browniewd.com/ -->
             </p>
         <p>Website redesign. UX/UI, backend created using Scaphold.io and graphQL.</P>
         </div>
@@ -55,7 +55,7 @@
             <img src="images/neat-shaving-co-Demo.png" alt="Neat Shaving Co. website" title="Neat Shaving Co. website">
             <h4>Neat Shaving Co.</h4>
             <p>
-                <a href='http://www.scc.brownae.com/seattlecentral/web202/protosite/index.php' target="_blank"><i>Website</i></a> | <a href="http://www.blog.brownae.com/neat-shaving-co/"><i>Summary</i></a>
+                <a href='http://neat.browniewd.com/' target="_blank"><i>Website</i></a> | <a href="http://www.blog.browniewd.com/neat-shaving-co/"><i>Summary</i></a>
 
             </p>
             <p>Brief case study. Designed Logo, UX/UI, Checkout procedure flow. Currently in a prototype phase.</P>
@@ -66,7 +66,7 @@
             <h4>Nafanua - Book by Paul Alan Cox</h4>
             <p>
                 <a href='http://www.nafanua.org/' target="_blank"><i>Website</i></a> | <a href="https://docs.google.com/document/d/144Pc_zMFsLr3YJFNo3U_W26AsId44km8lwG8NwciHkk/edit?usp=sharing"><i>Summary</i></a>
-                <!-- website on MY server... http://www.scc.brownae.com/seattlecentral/cis197/protosite2/legend.php -->
+                <!-- website on MY server... http://www.scc.browniewd.com/seattlecentral/cis197/protosite2/legend.php -->
             </p>
             <p>Website redesign for launch of digital republish of book. UX/UI, brochure site with links to purchase book.</P>
         </div>
@@ -93,7 +93,7 @@
             <img src="images/Laissez-faire-studios-Demo.png" alt="Laiessez Faire Studios" title="Laiessez Faire Studios">
             <h4>Laiessez Faire Studios</h4>
             <p>
-                <a href='http://www.scc.brownae.com/seattlecentral/web120/fp/index.php' target="_blank"><i>Website</i></a> | <a href="#"><i>Summary</i></a>
+                <a href='http://www.scc.browniewd.com/seattlecentral/web120/fp/index.php' target="_blank"><i>Website</i></a> | <a href="#"><i>Summary</i></a>
             </p>
             <p>Website for Laissez faire studio was built entirely for client then decided not to persue studio. </P>
         </div>

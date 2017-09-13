@@ -29,8 +29,8 @@
 <ul>
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
-   <li><a href="http://www.blog.brownae.com"><span>Blog</span></a></li>
-   <li><a href="http://www.scc.brownae.com/seattlecentral/web205/a-brown-web-resume.pdf" target="_blank" ><span>Resume</span></a></li>
+   <li><a href="http://www.blog.browniewd.com"><span>Blog</span></a></li>
+   <li><a href="/images/AaronBrownWebResume9-12-17.pdf" target="_blank" ><span>Resume</span></a></li> 
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">
