@@ -30,7 +30,7 @@
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
    <li><a href="http://www.blog.browniewd.com"><span>Blog</span></a></li>
-   <li><a href="https://indd.adobe.com/view/1bc7547d-3965-4a7b-86ce-277aa888379c" target="_blank" ><span>Resume</span></a></li> 
+   <li><a href="https://indd.adobe.com/view/1bc7547d-3965-4a7b-86ce-277aa888379c" target="_blank" ><span>Resume</span></a></li>
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">
@@ -40,7 +40,7 @@
         </svg>
     </a>
 
-    <a href="https://www.linkedin.com/in/aaron-brown-34b15b46" target="_blank">
+    <a href="http://www.linkedin.com/in/browniewd" target="_blank">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 36.1 35.9" style="enable-background:new 0 0 36.1 35.9;" xml:space="preserve">
             <style type="text/css">
@@ -56,7 +56,7 @@
 				L19,16.8L19,16.8z"/>
         </svg>
     </a>
-    <a href="https://twitter.com/ABinDXB" target="_blank">
+    <a href="https://twitter.com/browniewd" target="_blank">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 viewBox="0 0 33.3 33.3" style="enable-background:new 0 0 33.3 33.3;" xml:space="preserve">
         <style type="text/css">
