@@ -48,6 +48,7 @@
                 <a href="#"><i>Summary</i></a>
                 <!-- website on MY server... http://canon.browniewd.com/ -->
             </p>
+        <p><b>**Discalimer: School Assignment - not contracted by Canon Seattle**</b></P>
         <p>Website redesign. UX/UI, backend created using Scaphold.io and graphQL.</P>
         </div>
 

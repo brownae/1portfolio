@@ -30,7 +30,7 @@
    <li><a href="index.php"><span>Home</span></a></li>
    <li><a href="/index.php#portfolio"><span>Portfolio</span></a></li>
    <li><a href="http://www.blog.browniewd.com"><span>Blog</span></a></li>
-   <li><a href="https://indd.adobe.com/view/1bc7547d-3965-4a7b-86ce-277aa888379c" target="_blank" ><span>Resume</span></a></li>
+   <!-- <li><a href="https://indd.adobe.com/view/1bc7547d-3965-4a7b-86ce-277aa888379c" target="_blank" ><span>Resume</span></a></li> -->
    <li><a href="/index.php#contact"><span>Contact</span></a></li>
 
    <li class="last">
@@ -40,7 +40,7 @@
         </svg>
     </a>
 
-    <a href="http://www.linkedin.com/in/browniewd" target="_blank">
+    <!-- <a href="http://www.linkedin.com/in/browniewd" target="_blank">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 36.1 35.9" style="enable-background:new 0 0 36.1 35.9;" xml:space="preserve">
             <style type="text/css">
@@ -55,7 +55,7 @@
 				C19,20.1,19,20.5,19,20.9v7.6h-4.5c0,0,0.1-12.3,0-13.5H19v1.9c0.8-1.4,2.4-2.3,4.1-2.2c3,0,5.2,1.9,5.2,6.1V28.4z M19,16.8
 				L19,16.8L19,16.8z"/>
         </svg>
-    </a>
+    </a> -->
     <a href="https://twitter.com/browniewd" target="_blank">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 viewBox="0 0 33.3 33.3" style="enable-background:new 0 0 33.3 33.3;" xml:space="preserve">
