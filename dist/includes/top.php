@@ -4,6 +4,7 @@
     <!-- title and meta -->
     <title>Brown Aaron E Portfolio</title>
     <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="description" name="Aaron Brown is a seattle based front end web developer">

@@ -11,7 +11,7 @@
         <div class="container">
             <h3>Brownie Web Design is</h3>
             <h2>Aaron E. Brown</h2>
-            <p class="center">(Aka Brown or "Brownie")</p>
+            <p class="center">Aka "Brownie" or "Brown" <a href='http://www.blog.browniewd.com/aaron-brown-bio/' >(why? ...)</a></p>
         </div>
         <div class="intro-graphics-wrapper">
             <div class="intro-graphic">
@@ -45,7 +45,7 @@
             <h4>Canon Whiskey &amp; Bitters Emporium</h4>
             <p>
                 <a href='http://canon.browniewd.com/' target="_blank" ><i>Website</i></a> |
-                <a href="#"><i>Summary</i></a>
+                <a href="http://www.blog.browniewd.com/canon-whisky-bitters-emporium/"><i>Summary</i></a>
                 <!-- website on MY server... http://canon.browniewd.com/ -->
             </p>
         <p>Website redesign. UX/UI, backend created using Scaphold.io and graphQL.</P>
