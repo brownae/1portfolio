@@ -80,6 +80,12 @@ a:visited {
     color: inherit;
 }
 
+p a:hover {
+    color: #F46F79;
+}
+
+
+
 img {
     width: 100%;
 }
