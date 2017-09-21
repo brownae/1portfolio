@@ -11,7 +11,7 @@
         <div class="container">
             <h3>Brownie Web Design is</h3>
             <h2>Aaron E. Brown</h2>
-            <p class="center">(Aka Brown or "Brownie")</p>
+            <p class="center">Aka "Brownie" or "Brown" <a href='http://www.blog.browniewd.com/aaron-brown-bio/' >(why? ...)</a></p>
         </div>
         <div class="intro-graphics-wrapper">
             <div class="intro-graphic">
