@@ -93,7 +93,7 @@
             <img src="images/Laissez-faire-studios-Demo.png" alt="Laiessez Faire Studios" title="Laiessez Faire Studios">
             <h4>Laiessez Faire Studios</h4>
             <p>
-                <a href='http://www.scc.browniewd.com/seattlecentral/web120/fp/index.php' target="_blank"><i>Website</i></a> | <a href="#"><i>Summary</i></a>
+                <a href='http://www.scc.browniewd.com/web120/fp/index.php' target="_blank"><i>Website</i></a> | <a href="#"><i>Summary</i></a>
             </p>
             <p>Website for Laissez faire studio was built entirely for client then decided not to persue studio. </P>
         </div>

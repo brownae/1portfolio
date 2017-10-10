@@ -303,7 +303,11 @@ form div input {
     margin-top: 20px;
 }
 
-@media all and (max-width: 500px) {
+div.rc-anchor.rc-anchor-normal.rc-anchor-light {
+    width: 100%;
+}
+
+@media all and (max-width: 800px) {
     #rc-imageselect, .g-recaptcha {
         transform: scale(0.77);
         -webkit-transform: scale(0.77);
